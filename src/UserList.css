@@ -1,0 +1,41 @@
+.user-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.user-item {
+    background-color: #f9f9f9;
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.user-item h3 {
+    margin: 0;
+    font-size: 1.2em;
+    color: #333;
+}
+.user-item h3 span {
+    color: #2a9d8f;  /* Example color */
+    font-weight: bold;
+    font-size: 1.2em;
+    text-decoration: underline;
+
+}
+.user-item .address {
+    font-size: 0.9em;
+    color: #787878;
+}
+
+.line {
+        border: 5px;
+        border-top: 3px solid #000000; 
+        margin: 20px 0; 
+        width: 100%;   
+    }
+    .address-label {
+        font-weight: bold;  
+        color: #524747;  
+    }
