@@ -39,3 +39,11 @@
         font-weight: bold;  
         color: #524747;  
     }
+    .user-item .phone {
+        font-size: 0.9em;
+        color: #787878;
+    }
+    .phone-label {
+        font-weight: bold;  
+        color: #524747;  
+    }

@@ -24,6 +24,7 @@ function UserList() {
                         <h3><span>The name is :</span> {user.name}</h3><hr className='line  '/>
                         <p className="address"><span className="address-label">The adress is : </span><br/>
                         {user.address.street}, {user.address.suite},{user.address.city}</p>
+                        <p className="phone"><span className="phone-label">contact: : </span>{user.phone},</p>
                     </li>   
                 ))}
             </ul>
